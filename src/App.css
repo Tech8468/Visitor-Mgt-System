@@ -1,0 +1,515 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  overflow: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  overflow: none;
+}
+
+/* .backgroundImg{
+  background-image: url('./components/images/leaf-bg.png');
+} */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(128, 126, 123);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.navLogo{
+  color: white;
+  padding: 10px;
+}
+
+.links{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+.links li{
+  display: inline-block;
+  /* margin: 5px; */
+  padding: 10px;
+}
+
+.links li:hover{
+  background-color: rgb(177, 174, 170);
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.height{
+  height: 56vh;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(128, 126, 123);
+  margin-top: 200px;
+  position: sticky;
+  bottom: 0;
+
+}
+
+.footer h1{
+  color: white;
+  
+}
+
+.footerList{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+
+.footerList li{
+  /* display: inline-block; */
+  /* margin-right: 20px; */
+  padding: 15px;
+}
+
+.footerList li a{
+  
+  text-decoration: none;
+}
+
+.backgroundImg{
+  /* background-image: url(img/burger.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeBanner{
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.homeBanner h1{
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 200px;
+  color: rgb(128, 126, 123);
+  transition: 1s ease-in ;
+
+}
+
+/* .homeBanner h1:hover{
+
+} */
+
+.homeBanner p{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+
+.homeBanner button{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  /* justify-content: center; */
+  border: none;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-right: 200px;
+  background-color: rgb(128, 126, 123);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeBanner button:hover{
+  background-color: rgb(10, 10, 9);
+}
+
+.homeBanner .bannerImg{
+  width: 90%;
+  /* background-color: black; */
+  height: 100%;
+  margin-top: 80px;
+  display: flex;
+}
+
+/* .homeBanner .bannerImg .card{
+  width: 10%;
+  height: 30%;
+  background-color: #080808;
+  border: 2px solid #fff;
+  top: 85%;
+  padding: 40px;
+  transform: translate(-50%, -50%) scale;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  border-radius: 2600px;
+  margin: 10px;
+} */
+
+.homeBanner .bannerImg .img1{
+  width: 350px;
+}
+
+.homeBanner .bannerImg .img2{
+  width: 350px;
+}
+
+.homeBanner .bannerImg .img3{
+  width: 350px;
+}
+
+.homeBanner .bannerImg .img4{
+  width: 350px;
+}
+
+.menuBanner{
+  width: 100%;
+  height: 140vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.menuForm{
+  width: 100%;
+  height: 500px;
+  /* background-color: #333; */
+  margin-top: 200px;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.menuForm .form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid  rgb(150, 99, 5);
+  margin-top: 20px;
+}
+
+.menuForm .form input{
+  width: 50%;
+  height: 40px;
+  outline: none;
+  background-color: transparent;
+  color: #e0d9d9;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid  rgb(150, 99, 5);
+  border-radius: 10px;
+}
+
+.menuForm .form .fileUpload{
+  border: none !important;
+  padding: 0;
+  border-radius: 0;
+}
+
+.menuForm .form button{
+  width: 50%;
+  height: 40px;
+  border: none;
+  background-color: rgb(88, 59, 5);
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menuForm .form button:hover{
+
+  background-color: rgb(180, 137, 58);
+
+}
+
+.menuBanner .col1{
+  width: 80%;
+  height: 400px;
+  margin-top: 80px;
+  /* justify-content: center; */
+  border: 1px solid  rgb(150, 99, 5);
+  border-radius: 10px;
+  /* display: flex; */
+}
+
+.menuBanner .col1 h1{
+  /* margin-top: 150px; */
+  color: #857a7a;
+  text-align: left;
+}
+
+.product .card{
+  /* width: 10%;
+  height: 200px;
+  background-color: transparent;
+  padding: 40px;
+  transform: translate(-50%, -50%) scale;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: 30px;
+  align-items: center; */
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.product-card{
+  padding: 20px;
+  /* transform: translate(-50%, -50%) scale; */
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  /* border-radius: 10px; */
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card .images{
+  width: 100%;
+  padding: 80px;
+}
+
+.product-card .img{
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  /* padding: 100px; */
+}
+
+.product-card h1{
+  color: #e0d9d9;
+}
+
+.product-card h2{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.product-card p{
+  padding: 10px;
+}
+
+.menuBanner .col1 .card .img1{
+  width: 120px;
+  justify-content: center;
+}
+
+.menuBanner .col1 .card .img2{
+  width: 120px;
+}
+
+.menuBanner .col1 .card .img3{
+  width: 120px;
+}
+
+.menuBanner .col1 .card .img4{
+  width: 120px;
+}
+
+.menuBanner .col1 .card h1{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(150, 99, 5);
+  margin-top: 10px;
+}
+
+.menuBanner .col1 .card p{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  margin-top: 10px;
+}
+
+.product-card button{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  background-color: rgb(5, 5, 4);
+  color: white;
+  cursor: pointer;
+}
+
+.product-card button:hover{
+  background-color: rgb(128, 126, 123);
+}
+
+.menuBanner .col2{
+  width: 80%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid  rgb(150, 99, 5);
+  border-radius: 10px;
+
+}
+
+.menuBanner .col2 h1{
+  margin-top: 150px;
+  color: #857a7a;
+}
+
+
+.menuBanner .col2 .card{
+  width: 10%;
+  height: 200px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  top: 85%;
+  padding: 40px;
+  transform: translate(-50%, -50%) scale;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: 30px; 
+}
+
+.menuBanner .col2 .card .img5{
+  width: 120px;
+}
+
+.menuBanner .col2 .card .img6{
+  width: 120px;
+}
+
+.menuBanner .col2 .card .img7{
+  width: 120px;
+}
+
+.menuBanner .col2 .card .img8{
+  width: 120px;
+}
+
+.menuBanner .col2 .card h1{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(150, 99, 5);
+  margin-top: 10px;
+}
+
+.menuBanner .col2 .card p{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  margin-top: 10px;
+}
+
+.menuBanner .col2 .card button{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  background-color: rgb(88, 59, 5);
+  color: white;
+  cursor: pointer;
+}
+
+.menuBanner .col2 .card button:hover{
+  background-color: rgb(180, 137, 58);
+}
+
+.columns{
+
+  width: 90%;
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  margin: 20px 30px ;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+
+
+}
+
+.columns .col1{
+  width: 50%;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.columns .col1 img{
+  width: 50%;
+  margin-left: 170px;
+
+}
+
+.columns .col2{
+  width: 30%;
+  /* box-shadow: 0px 0px 5px rgba(0,0,0,0.2); */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.columns .col2 h1{
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.columns .col2 p{
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.columns .col2 h2{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
