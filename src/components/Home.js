@@ -7,15 +7,24 @@ import {Link} from "react-router-dom";
 
 function Home() {
     return (
-        <div className="homeBanner height">
-            <h1>
-                J'Bot
-            </h1>
-            <p> ...best place to shop online...</p>
+        // <div className="homeBanner height">
+        //     <h1>
+        //         J'Bot
+        //     </h1>
+        //     <p> ...best place to shop online...</p>
             
             
 
-            <Link to="/product"><button className='menuBtn'>Enter to Shop</button></Link>
+        //     <Link to="/product"><button className='menuBtn'>Enter to Shop</button></Link>
+        // </div>
+
+        <div className='home'>
+            <div className='col1'>
+
+            </div>
+            <div className='col2'>
+                
+            </div>
         </div>
     )
 }

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    overflow: 0;
+}
+
+.home {
+    width: 1583px;
+    height: 739px;
+    top: -2492px;
+    /* left: -9571px; */
+    /* right: -9571px; */
+    background: #a52323;
+    display: flex;
+
+}
+
+.col1 {
+    width: 792px;
+    height: 739px;
+    left: 672px;
+    background: #FFFFFF;
+    
+}
+.col2 {
+    width: 790px;
+    height: 739px;
+    left: 672px;
+    background: #FFFFFF;
+    background-image: url(../images/Frame\ 1000003443.png);
+}

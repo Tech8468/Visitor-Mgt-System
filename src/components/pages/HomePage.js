@@ -4,9 +4,9 @@ import Home from "../Home";
 function HomePage() {
     return (
         <div className="backgroundImg">
-            <Nav />
+            {/* <Nav /> */}
             <Home />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
