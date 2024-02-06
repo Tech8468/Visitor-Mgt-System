@@ -12,8 +12,8 @@ function Home() {
         //         J'Bot
         //     </h1>
         //     <p> ...best place to shop online...</p>
-            
-            
+
+
 
         //     <Link to="/product"><button className='menuBtn'>Enter to Shop</button></Link>
         // </div>
@@ -21,9 +21,34 @@ function Home() {
         <div className='home'>
             <div className='col1'>
 
+                <form>
+                    <h1>Welcome back!</h1>
+                    <div>
+                        <label>Email</label>
+                        <input type='text' placeholder='Enter your email' />
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type='password' placeholder='Enter your password' />
+                    </div>
+                    <div>
+                        <div className='box'>
+                            <div>
+                                <input type='checkbox' className='checkbox' />
+                                <label>Remember me</label>
+                            </div>
+
+                            <Link to='/forgotpwd'><p>Forgot password</p></Link>
+                        </div>
+                    </div>
+                    <button type='submit'>Sign in</button>
+                </form>
             </div>
             <div className='col2'>
-                
+                <div>
+                <h1>SBSC</h1>
+                <h1>VISITOR MANAGEMENT SYSTEM</h1>
+                </div>
             </div>
         </div>
     )

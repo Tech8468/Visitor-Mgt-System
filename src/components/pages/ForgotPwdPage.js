@@ -1,13 +1,13 @@
 // import Nav from "../Nav";
 // import Footer from "../Footer";
-import Home from "../Home";
-function HomePage() {
+import ForgotPwd from "../ForgotPwd";
+function ForgotPwdPage() {
     return (
         <div className="backgroundImg">
             {/* <Nav /> */}
-            <Home />
+            <ForgotPwd />
             {/* <Footer /> */}
         </div>
     );
 };
-export default HomePage;
+export default ForgotPwdPage;

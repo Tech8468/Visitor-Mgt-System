@@ -6,27 +6,180 @@
 }
 
 .home {
-    width: 1583px;
-    height: 739px;
-    top: -2492px;
-    /* left: -9571px; */
-    /* right: -9571px; */
+    /* width: 100%;
+    height: 80vh;
     background: #a52323;
+    display: flex;
+ */
+    width: 100%;
+    height: 960px;
+    top: -11px;
+    left: -9571px;
+    padding: 0px, 0px, 0px, 156px;
     display: flex;
 
 }
 
 .col1 {
-    width: 792px;
-    height: 739px;
-    left: 672px;
-    background: #FFFFFF;
+    width: 50%;
+    height: 960px;
+    /* left: 672px; */
+    /* background: #FFFFFF; */
+    /* background: #545050; */
+
+}
+
+.col1 form {
+    width: 360px;
+    height: 342px;
+    position: relative;
+    top: 309px;
+    left: 190px;
+    gap: 20px;
+    /* background-color: aqua; */
+    padding: 10px;
+    display: grid;
+
+}
+
+.col1 form div {
+    display: grid;
+}
+
+.col1 form h1 {
+    width: 360px;
+    height: 38px;
+    /* background-color: brown; */
+    text-align: left;
+
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.col1 form input {
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    margin-top: -8px;
+    outline: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.col1 form label {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.col1 form .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 form .box a {
+    color: blue;
+
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;    
+}
+
+
+.col1 form .checkbox {
+    position: relative;
+    bottom: 7px;
+}
+
+.col1 form .box label {
+    position: relative;
+    left: 5px;
+}
+
+
+.col1 form .box div {
+    display: flex;
+}
+
+.col1 form button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
     
 }
+
+.col1 form button:hover {
+    background-color: #1BB6C8;
+}
+
+
 .col2 {
-    width: 790px;
-    height: 739px;
-    left: 672px;
-    background: #FFFFFF;
+    width: 50%;
+    height: 960px;
+    /* left: 672px; */
+    background: #837f7f;
     background-image: url(../images/Frame\ 1000003443.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.col2 div {
+    /* background-color: red; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+
+
+
+}
+
+.col2 div:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .65);
+    /* z-index: -1; */
+}
+
+.col2 h1 {
+    position: relative;
+    top: 400px;
+    text-align: center;
+    color: white;
+
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+
 }
